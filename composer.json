@@ -1,0 +1,24 @@
+{
+    "name": "koteeki/yii2-clearoutphone",
+    "description": "Yii2 ClearoutPhone extension",
+    "keywords": ["yii2", "clearoutphone"],
+    "type": "yii2-extension",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Vlad Ilinyh",
+            "email": "v.ilinyh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-httpclient": "~2.0.0",
+        "yii2mod/yii2-enum": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "koteeki\\clearoutphone\\": "src/"
+        }
+    }
+}
